@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_SolutionItems", "_SolutionItems", "{4261DBEA-A003-4CD8-8971-D0D883DD5FC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "asset", "asset", "{8F9A70F5-01E2-42A1-AA50-501C1C87DDA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{9AD1FB14-1AC6-4039-B70D-354A337954E0}"
+	ProjectSection(SolutionItems) = preProject
+		asset\images\icon.png = asset\images\icon.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "props", "props", "{5F4B4DCF-3D28-4F19-B0F9-245FDFEA113E}"
+	ProjectSection(SolutionItems) = preProject
+		asset\props\misc.props = asset\props\misc.props
+		asset\props\package.props = asset\props\package.props
+		asset\props\sourcelink.env.props = asset\props\sourcelink.env.props
+		asset\props\target.feature.props = asset\props\target.feature.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{63DBB39C-A728-44FF-BFF6-2C1C511CF05A}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution", "solution", "{BEEA1DBB-0083-47AB-90F8-F2E68079EF6D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		common.props = common.props
+		common.tests.props = common.tests.props
+		LICENSE = LICENSE
+		version.dev.props = version.dev.props
+		version.props = version.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F1A76A13-E079-4C8F-8B0F-349800EB2D11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bing.Apisix", "src\Bing.Apisix\Bing.Apisix.csproj", "{BF1DDEC3-43BD-4935-ABE9-E47739CB0C5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF1DDEC3-43BD-4935-ABE9-E47739CB0C5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF1DDEC3-43BD-4935-ABE9-E47739CB0C5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF1DDEC3-43BD-4935-ABE9-E47739CB0C5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF1DDEC3-43BD-4935-ABE9-E47739CB0C5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8F9A70F5-01E2-42A1-AA50-501C1C87DDA1} = {4261DBEA-A003-4CD8-8971-D0D883DD5FC7}
+		{9AD1FB14-1AC6-4039-B70D-354A337954E0} = {8F9A70F5-01E2-42A1-AA50-501C1C87DDA1}
+		{5F4B4DCF-3D28-4F19-B0F9-245FDFEA113E} = {8F9A70F5-01E2-42A1-AA50-501C1C87DDA1}
+		{63DBB39C-A728-44FF-BFF6-2C1C511CF05A} = {4261DBEA-A003-4CD8-8971-D0D883DD5FC7}
+		{BEEA1DBB-0083-47AB-90F8-F2E68079EF6D} = {4261DBEA-A003-4CD8-8971-D0D883DD5FC7}
+		{BF1DDEC3-43BD-4935-ABE9-E47739CB0C5C} = {F1A76A13-E079-4C8F-8B0F-349800EB2D11}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8151DFE5-A7A1-46D8-96BE-AF46919FA051}
+	EndGlobalSection
+EndGlobal

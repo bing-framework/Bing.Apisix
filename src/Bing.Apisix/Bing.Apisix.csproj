@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<AssemblyName>Bing.Apisix</AssemblyName>
+		<PackageId>Bing.Apisix</PackageId>
+		<Description>Bing.Apisix是Bing应用框架的对于APISIX的AdminAPI封装类库。</Description>
+	</PropertyGroup>
+	<ItemGroup>
+	  <Folder Include="Bing\Apisix\Model\" />
+	</ItemGroup>
+
+	<Import Project="..\..\common.props" />
+
+	<Import Project="dependency.props" />
+
+</Project>
